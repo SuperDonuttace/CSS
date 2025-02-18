@@ -1,0 +1,6 @@
+.skeleton-img {
+    transition: filter 0.3s ease-in-out;
+}
+.skeleton-img:hover {
+    filter: invert(100%);
+}

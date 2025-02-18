@@ -1,0 +1,7 @@
+img {
+    transition: filter 0.3s;
+}
+img:hover {
+    filter: grayscale(100%);
+}
+/*La guia de la pagina no me enseña a hacer hovers, pero la practica de filters lo necessita*/
