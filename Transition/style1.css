@@ -1,0 +1,15 @@
+input{
+    transition: 1s;
+}
+input:hover{
+    transform: scale(130%);
+    border-color: transparent;
+}
+
+button{
+    background-color: rgb(192, 190, 190);
+    transition: 1s;
+}
+button:hover{
+    background-color: #ffffff;
+}
