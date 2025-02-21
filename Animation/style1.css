@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95.5vh;
+}
+
+.sun {
+    width: 10rem;
+    height: 10rem;
+    background-color: yellow;
+    border-radius: 100%;
+}
+
+.moon {
+    position: absolute;
+    left: 33vw;
+    width: 10rem;
+    height: 10rem;
+    background-color: black;
+    border-radius: 100%;    
+    animation: eclipse 10s infinite linear;
+}
+
+@keyframes eclipse {
+    0% {
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(200px);
+    }
+    100% {
+        transform: translateX(400px);
+    }
+}
