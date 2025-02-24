@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(210, 252, 252);
+    height: 95.5vh;
+}
+
+h1{
+    position: absolute;
+    left: 40.5%;
+    top: 45%;
+}
+
+.dot1{
+    position: absolute;
+    left: 51vw;
+    top: 52vh;
+    display: flex;
+    height: 4px;
+    width: 4px;
+    border-radius: 100%;
+    background-color: black;
+
+    animation: dot1 1s infinite linear;
+}
+.dot2{
+    position: absolute;
+    left: 51.5vw;
+    top: 52vh;
+    display: flex;
+    height: 4px;
+    width: 4px;
+    border-radius: 100%;
+    background-color: black;
+
+    animation: dot2 1s infinite linear;
+    animation-delay: 0.2s;
+
+}
+.dot3{
+    position: absolute;
+    left: 52vw;
+    top: 52vh;
+    display: flex;
+    height: 4px;
+    width: 4px;
+    border-radius: 100%;
+    background-color: black;
+
+    animation: dot3 1s infinite linear;
+    animation-delay: 0.4s;
+}
+
+@keyframes dot1{
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-8px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+@keyframes dot2{
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-8px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+@keyframes dot3{
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-8px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
