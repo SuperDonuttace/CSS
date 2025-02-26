@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    height: 95.5vh;
+}
+.wall{
+    margin: 0;
+    padding: 0;
+    height: 50vh;
+    width: 50vw;
+}
+
+.sheep{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 20%;
+    filter: drop-shadow(-30px -120px 4px rgb(0, 0, 0));
+}
+
+.floor{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    height: 50vh;
+    width: 50vw;
+}
